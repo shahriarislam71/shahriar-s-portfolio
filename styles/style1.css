@@ -45,6 +45,7 @@ header {
 }
 
 /*body-main part*/
+
 main {
     max-width: 1350px;
     text-align: center;
@@ -52,6 +53,50 @@ main {
 }
 
 /*1st section*/
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-left: 230px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-description {
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-info {
+    color: #757575;
+    font-size: 20px;
+}
+
+.title-description {
+    font-weight: 400;
+    color: #474747;
+    font-size: 20px;
+}
+
+/*2nd section*/
 .blogs {
     display: flex;
     align-items: center;
@@ -88,7 +133,7 @@ main {
     text-align: left;
 }
 
-/*2nd section*/
+/*3rd section*/
 .sec-2 {
     margin-top: 210px;
     font-weight: 700;
@@ -121,7 +166,7 @@ main {
     color: #737272;
 }
 
-/*3rd section*/
+/*4th section*/
 .background {
     background-image: url(../images/watch.png);
     margin-left: 230px;
@@ -134,6 +179,7 @@ main {
     padding-bottom: 73px;
     background-repeat: no-repeat;
     border-radius: 5px;
+    
 
 
 }
