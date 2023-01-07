@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.head {
+    padding-top: 216px;
+    text-align: right;
+    padding-right: 230px;
+    padding-left: 845px;
+    padding-bottom: 365px;
+}
+
+header {
+
+    background: url(top-view-abstract-assortment-with-innovation-elements.jpg);
+    background: #FFF8F3;
+    background-size: 1600px;
+    background-image: url(../images/banner/banner1.png);
+}
+
+.belive {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.description{
+    color: #444343;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    padding: 20px 25px;
+
+}
