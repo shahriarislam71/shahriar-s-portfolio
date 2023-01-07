@@ -1,3 +1,4 @@
+/*body-header part*/
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
@@ -15,9 +16,11 @@
 header {
 
     background: url(top-view-abstract-assortment-with-innovation-elements.jpg);
-    background: #FFF8F3;
+    
     background-size: 1600px;
     background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+
 }
 
 .belive {
@@ -27,14 +30,178 @@ header {
     margin-bottom: 25px;
     text-align: left;
 }
-.description{
+
+.description {
     color: #444343;
     margin-bottom: 30px;
     text-align: left;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     color: #FFFFFF;
     padding: 20px 25px;
 
+}
+
+/*body-main part*/
+main {
+    max-width: 1350px;
+    text-align: center;
+    margin: o auto;
+}
+
+/*1st section*/
+.blogs {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    gap: 70px;
+
+
+}
+
+.personal-img {
+    margin-left: 200px;
+    background: rgba(241, 91, 34, 0.2);
+    border-radius: 100%;
+    background-position:0%;
+}
+
+.failure {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+.failure-script {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/*2nd section*/
+.sec-2 {
+    margin-top: 210px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+
+}
+
+.plans {
+    display: flex;
+    margin-left: 230px;
+    justify-content: space-between;
+}
+
+.web-plans,
+.jaba-plans,
+.smoking-plans,
+.ecommerce-plan {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.motive-web-plans,
+.motive-jaba-plans,
+.motive-smoking-plans,
+.motive-ecommerce-plan {
+    color: #737272;
+}
+
+/*3rd section*/
+.background {
+    background-image: url(../images/watch.png);
+    margin-left: 230px;
+    margin-top: 130px;
+    margin-bottom: 135px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-right: 880px;
+    padding-bottom: 73px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+
+}
+
+.background-description {
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.background-btn {
+    padding: 20px 36px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*body-Footer part*/
+.future {
+    display: flex;
+    background: #151414;
+    padding: 130px 230px;
+    gap: 330px;
+    
+}
+
+.thinking-future {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.email {
+    margin-bottom: 16px;
+    color: #F8F8F8;
+}
+
+.phone {
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.subscribe-me {
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.email-box {
+    background: #151414;
+    color: #F3F3F3;
+    padding-left: 22px;
+    padding-top: 20px;
+    padding-right: 158px;
+    padding-bottom: 21px;
+    margin-bottom: 20px;
+}
+
+.btn-subs {
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #F15B22;
+    padding: 20px 36px;
 }
